@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root {
+  font-size: 10px; /* reset: so that 10px = 1rem */
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --primary: #4a6dfa;
+  --white: #ffffff;
+  --border: #d4daf1;
+  --black: #000000;
+  --grey-100: #686588;
+  --grey-200: #5e7285;
+  --grey-300: #6d869f;
+  --grey-400: #c6d4ff;
+  --grey-500: #e3e7ff;
+  --grey-600: #e4ebff;
+  --grey-700: #e6ebff;
+  --grey-800: #eef1ff;
+  --grey-900: #edf3ff;
+}
+
+body {
+  color: var(--black);
+  background-color: var(--white);
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  font-family: inherit;
+  cursor: pointer;
+  line-height: 0;
+}
+
+input,
+textarea {
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+}
+
+ul,
+li {
+  list-style: none;
+  color: inherit;
+  font-family: inherit;
+}

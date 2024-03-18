@@ -1,0 +1,16 @@
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import ReactDOM from 'react-dom/client';
+
+import { App } from '@/App';
+
+const queryClient = new QueryClient();
+
+async function startApp() {
+  ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+    <QueryClientProvider client={queryClient}>
+      <App />,
+    </QueryClientProvider>,
+  );
+}
+
+startApp();

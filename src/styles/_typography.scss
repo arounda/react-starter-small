@@ -1,0 +1,54 @@
+@import '@/styles/_mixins.scss';
+
+@mixin heading {
+  font-size: 2.4rem;
+  line-height: 3.12rem;
+  @include media('m') {
+    font-size: 2.6rem;
+    line-height: 3.38rem;
+  }
+}
+
+@mixin heading2 {
+  font-size: 2.2rem;
+  line-height: 3.3rem;
+  @include media('m') {
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+  }
+}
+
+@mixin heading3 {
+  font-size: 2.2rem;
+  line-height: 2.86rem;
+}
+
+@mixin bodyXL {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+@mixin bodyL {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+
+@mixin bodyM {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+@mixin bodyS {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+}
+
+@mixin bodyXS {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+@mixin buttonM {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
