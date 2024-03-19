@@ -51,14 +51,6 @@
         "aspects": ["invalidHref", "preferButton"]
       }
     ],
-    "no-restricted-imports": "off",
-    "@typescript-eslint/no-restricted-imports": [
-      "error",
-      {
-        "name": "react-redux",
-        "importNames": ["useSelector", "useDispatch"],
-        "message": "Use typed hooks `useAppSelector` and `useAppDispatch` instead"
-      }
-    ]
+    "no-restricted-imports": "off"
   }
 }
